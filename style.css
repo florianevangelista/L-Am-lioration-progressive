@@ -1,0 +1,140 @@
+body {
+    max-width: 90%;
+    margin: auto;
+    background-color: linear-gradient(#E8ECEF, #AFFCFB);
+    background-image: url("image.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+ }
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 2.5;
+    font-size: 17px;
+    color: #5B1304;
+}
+
+table {
+    font-size: 17px;
+    border: 1px solid black;
+    margin: 7px 0px 0px 7px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 7px;
+}
+
+caption {
+    margin-bottom: 15px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+a {
+   text-decoration: none;
+   color: red;
+   font-style: italic;
+}
+
+a:hover {
+   text-decoration: underline;
+   color: green;
+}
+
+a:active {
+    background-color: #FFCC66;
+}
+
+.citation {
+    text-align: justify;
+    font-size: 160%;
+    background-color: rgba(110, 109, 116, 0.1);
+    padding-left: 30px;
+    margin: 80px 0px 80px 0px;
+    font-style: italic;
+}
+
+.fermier {
+    text-align: justify;
+    font-size: 160%;
+    background-color: rgba(110, 109, 116, 0.1);
+    border-left: 3px solid #54AF77;
+    padding-left: 30px;
+    margin: 80px 0px 80px 0px;
+    font-style: italic;
+}
+
+.village {
+    text-align: justify;
+    font-size: 160%;
+    background-color: rgba(110, 109, 116, 0.1);
+    border-left: 3px solid #CD5C5C;
+    padding-left: 30px;
+    margin: 80px 0px 80px 0px;
+    font-style: italic;
+}
+
+header h1 {
+    background-color: yellow;
+    display: inline;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.bien {
+    text-transform: uppercase;
+    color: green;
+}
+
+.mal {
+    text-transform: uppercase;
+    color: red;
+}
+
+tr:nth-child(even) {
+    background: #CCC
+}
+
+tr:nth-child(odd) {
+    background: #FFF
+}
+
+#liste1 li:nth-child(1) {
+    background-image: url("like.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#liste1 li:nth-child(2) {
+    background-image: url("dislike.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#liste1 li:nth-child(3) {
+    background-image: url("cat.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+ul li {
+    line-height: 3.5;
+}
+
+p:first-of-type {
+    font-weight: bold;
+}
+
+img {
+    float: left;
+}
+
+figure {
+    margin-top: 250px;
+    padding-left: none;
+}
+
+h2 {
+    font-family: 'Roboto Mono', monospace;
+}
